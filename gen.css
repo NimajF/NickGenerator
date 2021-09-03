@@ -1,0 +1,317 @@
+body{
+    scroll-behavior: smooth;
+    /*background-image: linear-gradient(160deg, #5e60ce 0%, #5b39aa 60%);*/
+    background: rgb(2,0,36);
+    background: linear-gradient(335deg, rgba(2,0,36,1) 0%, rgba(94,96,206,1) 56%, rgba(0,212,255,1) 100%);
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-shadow:  0 0.1em 0.1em rgba(0, 0, 0, 0.5);
+    
+}
+    
+
+
+
+
+input{
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+    
+    box-shadow: -2px 20px 20px -10px #000000;
+    background: none;
+    color:rgb(226, 214, 214);
+}
+
+#h1gen{
+    font-family: 'Nunito', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+#h2gen{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+    color: whitesmoke;
+}
+header p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.provide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.provideBtn{
+    background: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 1em;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+}
+.provideBtn:hover{
+    border: 1px solid #df57a8;
+    background-color: #df57a8;
+    color: cornsilk;
+    cursor: pointer;
+    text-shadow:  0 0.1em 0.1em rgba(0, 0, 0, 0.5);
+    box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75);
+}
+.provideBtn:focus{
+    border: 1px solid whitesmoke;
+    background-color: #df57a8;
+    color: cornsilk;
+    cursor: pointer;
+    text-shadow:  0 0.1em 0.1em rgba(0, 0, 0, 0.5);
+    box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+section{
+    margin-top: 40px;
+    height: 50vh;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+   
+    
+   
+   
+    
+}
+.card{
+	background: whitesmoke;
+    padding: 0.5em;
+	min-height: 25em;
+    width: 25em;
+    border-radius: 0.5em;
+    margin: auto;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    /* box-shadow: 0px 0px 15px -15px black inset; */
+    /* box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 8px 86px -22px rgba(0,0,0,0.75); */
+    transition: 1s ease-in-out;
+    box-shadow: 1px -1px 60px -20px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 60px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 60px -20px rgba(0,0,0,0.75);
+	
+}
+.btngen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#startgen{
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    padding: 0.7em;
+    font-size: 1.2em;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 0.4em;
+    
+    border: none;
+    color: whitesmoke;
+    
+    
+    /*text-shadow:0px 1px 0px #263666;*/
+    background-color: #df57a8;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    -moz-transition: 0.1s ease-in-out;
+    -webkit-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+}
+#startgen:hover{
+    cursor: pointer;
+    color: #edf2f4;
+   
+    background-color: #f347ae;
+
+    box-shadow: 0px 0px 26px -24px #000000;
+    
+    
+    
+    border-radius: 0.4em;
+}
+#startgen:active{
+    background-color: #f10e97;
+
+}
+#reset{
+    padding: 0.4em;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 0.4em;
+    
+    border: none;
+    color: whitesmoke;
+    
+    
+    /*text-shadow:0px 1px 0px #263666;*/
+    background-color: #27b5ee;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    -moz-transition: 0.1s ease-in-out;
+    -webkit-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+}
+#reset:hover{
+    cursor: pointer;
+    color: #ffffff;
+
+    background-color: #2faee0;
+    box-shadow: 0px 0px 26px -24px #000000;
+    border-radius: 0.4em;
+    transform: rotate(3deg);
+    transition: 0.5s ease;
+    
+}
+#reset:focus{
+    background-color: #2c96c0;
+    transform: rotate(360deg);
+    /* transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg); */
+}
+
+
+.nickTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nickTitle p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    text-shadow: none;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nickCard{
+    width: 15em;
+    height: 4em;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 1.5px solid black;
+	transition: 0.5s ease-in;	
+    
+}
+
+
+
+.insert{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: black;
+    background: none;
+    box-shadow: none;
+    text-align: center;
+    outline: 0;
+}
+
+
+#msg{
+    margin: 1px;
+}
+#msg p{
+    font-family: 'Nunito', sans-serif;
+    padding: 1px;
+    margin: 1px;
+    font-weight: bold;
+    text-shadow: none;
+    font-size: 20px;
+    color: #5d31c3;
+    transition: 0.2s ease-in-out;
+}
+
+#nickName{
+    font-family: 'Nunito', sans-serif;
+    padding-top: 5px;
+    font-weight: bold;
+    text-shadow: none;
+    font-size: 20px;
+    text-align: center;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    transition: 1s ease-in-out;
+    color: rgb(129, 11, 119);
+ 
+}
+#nickName::selection { 
+    transition: 0.5s ease;
+    font-weight: lighter;
+    color: whitesmoke; 
+}
+
+.clipboard{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    
+}
+.clipboard #cp{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    text-shadow: none;
+    transition: 0.3s;
+    
+    
+    
+    
+}
+#cp:hover{
+    transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    text-decoration: underline;
+    color: rgb(155, 44, 175);
+    display: inline-block;
+    cursor: pointer;
+    
+}
+@media (max-width: 768px){
+    .nickTitle p{
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <link rel="stylesheet" href="gen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/nickgenicon.png"/>
+    <title>Generate!</title>
+</head>
+<body>
+    <header>
+        <h1 id="h1gen">We are getting started!</h1>
+        <h2 id="h2gen">You can randomly generate a nickname</h2>
+        <p>Also you can provide a name to get your nickname generated out of it.</p>
+        <div class="provide">
+            <button class="provideBtn">Provide</button>
+        </div>
+       
+    </header>
+    
+    <section>
+        <div class="card">
+            <div class="nickTitle">
+                <p>You nickname will show below.</p>
+                <div id="msg"></div>
+            </div>
+            <div class="nickCard">
+                <input type="text" id="nickName">
+            </div>
+            <div class="btngen">
+                <button type="button" id="startgen">Generate</button>
+                <button type="button" id="reset">Reset</button>
+            </div>
+            <div class="clipboard">
+                <span id="cp">Copy to Clipboard!</span>
+            </div>
+        </div>
+    </section>
+    <!--<div class="sw">
+        <p>Toggle to introduce a name</p>
+        <input type="checkbox" id="switch" />
+        <label for="switch"></label>
+           
+    </div>-->
+
+    
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="lists.js"></script>
+</body>
+</html>
