@@ -75,6 +75,7 @@ function selected(){
     input.style.borderBottom = "2px solid rgb(72, 36, 77)";
     input.setAttribute('placeholder', 'Add something...');
     input.setAttribute('maxlength', 8);
+    
 
     btnGen.style.marginTop = "20px";
     nickCard.style.marginTop = "40px"
